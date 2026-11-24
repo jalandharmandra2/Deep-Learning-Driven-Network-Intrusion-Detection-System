@@ -1,0 +1,30 @@
+{
+    "model_type": "Multi-Class LSTM",
+    "framework": "Keras 3 (PyTorch backend)",
+    "saved_at": "2026-11-25 02:46:27",
+    "input_shape": [
+        1,
+        52
+    ],
+    "feature_count": 52,
+    "classes": [
+        "BENIGN",
+        "BOTNET",
+        "BRUTE_FORCE",
+        "FLOODING",
+        "SCANNING",
+        "WEB_ATTACK"
+    ],
+    "hyperparameters": {
+        "epochs": 5,
+        "batch_size": 512,
+        "optimizer": "adam",
+        "loss": "sparse_categorical_crossentropy"
+    },
+    "training_metrics": {
+        "final_train_accuracy": 0.967,
+        "final_val_accuracy": 0.9743,
+        "training_duration_seconds": 25.93,
+        "total_samples": 305687
+    }
+}

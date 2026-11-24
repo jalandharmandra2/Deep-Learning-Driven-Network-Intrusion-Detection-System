@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Keras cache
+.keras/
+
+# Logs & temp files
+logs/*.log
+*.tmp
+*.temp
+
+# Large dataset raw files (preserve schema & models)
+data/raw/*.csv
+data/processed/*.npz
+
+# Runtime SQLite databases and transient journal files
+database/*.db
+database/*.db-journal
+database/*.db-wal
